@@ -135,7 +135,7 @@ int main(int argc,char *argv[])
 
 for(int j=0;j<4;j++)
 {
-    if((oct[j]<0 || oct[j]>=256) || (oct[0]==0))
+    if((oct[j]<0 || oct[j]>=256))
     {
         printf("\n\n\tInvalid IP Address Entered");
         error++;
