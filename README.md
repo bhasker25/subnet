@@ -7,5 +7,7 @@
 #Setup
   
       git clone https://github.com/bhasker25/subnet.git
-      
+     
+      cd subnet 
+     
       gcc subnet.c -o subnet
