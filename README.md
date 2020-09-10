@@ -11,3 +11,5 @@
       cd subnet 
      
       gcc subnet.c -o subnet
+     
+     subnet help
