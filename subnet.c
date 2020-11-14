@@ -245,7 +245,7 @@ for(int j=0;j<4;j++)
     }
     subnetmask[x]=sub;
     x++;
-    while(x>4)
+    while(x<4)
     {
         subnetmask[x]=0;
         x++;
